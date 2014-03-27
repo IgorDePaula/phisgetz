@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 apt-get update
-apt-get install git git-core php5 php-pear apache2 curl openssh-server
+apt-get install git git-core php5 php-pear apache2 curl openssh-server php5-xdebug
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 pear config-set auto_discover 1
