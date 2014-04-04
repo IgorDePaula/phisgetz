@@ -7,7 +7,9 @@ mv composer.phar /usr/local/bin/composer
 pear config-set auto_discover 1
 pear channel-discover pear.phpunit.de
 pear channel-discover pear.phing.info
+pear channel-discover pear.phpmd.org
 pear channel-discover pear.pdepend.org
+pear install --alldeps phpmd/PHP_MD
 pear install phpunit/PHPUnit
 pear install phpunit/php_CodeCoverage
 pear install phpunit/phpcov
