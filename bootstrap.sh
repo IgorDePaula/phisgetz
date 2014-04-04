@@ -14,7 +14,7 @@ pear install phpunit/PHPUnit
 pear install phpunit/php_CodeCoverage
 pear install phpunit/phpcov
 pear install phpunit/phpcpd
-pear install phpunit/phpdcd-0.3.9
+pear install phpunit/phpdcd-0.9.3
 pear install phpunit/phploc
 pear install pdepend/PHP_Depend
 pear install PHP_CodeSniffer-2.0.0a1
